@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | NewsWorld</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="css/contacto.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+
+            <span>NW</span>
+
+            NewsWorld
+
+        </a>
+
+
+        <nav class="nav">
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+            <a href="noticias.html">
+                Noticias
+            </a>
+
+            <a href="favoritos.html">
+                ❤️ Favoritos
+                <span id="contadorFavoritos">0</span>
+            </a>
+
+            <a href="contacto.html" class="active">
+                Contacto
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<section class="page-header">
+
+    <div class="container">
+
+        <span>
+            NEWSWORLD
+        </span>
+
+        <h1>
+            Contáctanos
+        </h1>
+
+        <p>
+            ¿Tienes alguna pregunta? Escríbenos.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="contact-section">
+
+    <div class="container contact-grid">
+
+
+        <div class="contact-info">
+
+            <span class="section-label">
+                INFORMACIÓN
+            </span>
+
+            <h2>
+                Estamos para ayudarte
+            </h2>
+
+            <p>
+                Puedes comunicarte con nosotros utilizando
+                cualquiera de nuestros canales.
+            </p>
+
+
+            <div class="contact-item">
+
+                <div>
+                    📧
+                </div>
+
+                <div>
+
+                    <strong>
+                        Correo
+                    </strong>
+
+                    <p>
+                        contacto@newsworld.com
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div>
+                    📱
+                </div>
+
+                <div>
+
+                    <strong>
+                        Teléfono
+                    </strong>
+
+                    <p>
+                        +57 300 000 0000
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <div>
+                    📍
+                </div>
+
+                <div>
+
+                    <strong>
+                        Ubicación
+                    </strong>
+
+                    <p>
+                        Bogotá, Colombia
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-form-container">
+
+            <form id="formContacto">
+
+                <div class="form-group">
+
+                    <label for="nombre">
+                        Nombre completo
+                    </label>
+
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Ingresa tu nombre">
+
+                    <small id="errorNombre"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="correo@ejemplo.com">
+
+                    <small id="errorEmail"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="asunto">
+                        Asunto
+                    </label>
+
+                    <input
+                        type="text"
+                        id="asunto"
+                        name="asunto"
+                        placeholder="Asunto">
+
+                    <small id="errorAsunto"></small>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="6"
+                        placeholder="Escribe tu mensaje..."></textarea>
+
+                    <small id="errorMensaje"></small>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary">
+
+                    Enviar mensaje
+
+                </button>
+
+
+                <div
+                    id="mensajeExito"
+                    class="success-message">
+
+                    ✓ Mensaje enviado correctamente.
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        © 2026 NewsWorld
+
+    </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+<script src="js/contacto.js"></script>
+
+</body>
+
+</html>

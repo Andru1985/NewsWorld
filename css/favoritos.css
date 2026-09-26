@@ -1,0 +1,47 @@
+.favorites-section {
+
+    padding:
+        70px 0;
+
+}
+
+
+.empty-favorites {
+
+    text-align:
+        center;
+
+    padding:
+        80px 20px;
+
+}
+
+
+.empty-favorites div {
+
+    font-size:
+        70px;
+
+    margin-bottom:
+        20px;
+
+}
+
+
+.empty-favorites h2 {
+
+    margin-bottom:
+        10px;
+
+}
+
+
+.empty-favorites p {
+
+    color:
+        #6B7280;
+
+    margin-bottom:
+        25px;
+
+}

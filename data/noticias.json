@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "titulo": "La inteligencia artificial transforma la educación",
+        "categoria": "Educación",
+        "descripcion": "Las nuevas herramientas basadas en inteligencia artificial están transformando los procesos de enseñanza y aprendizaje.",
+        "contenido": "La inteligencia artificial está permitiendo desarrollar nuevas herramientas educativas capaces de personalizar el aprendizaje, facilitar el acceso a información y apoyar a estudiantes y docentes.",
+        "imagen": "img/ia.jpg",
+        "fecha": "2026-09-15",
+        "autor": "NewsWorld"
+    },
+    {
+        "id": 2,
+        "titulo": "Nuevas tecnologías cambian la vida cotidiana",
+        "categoria": "Tecnología",
+        "descripcion": "Los avances tecnológicos continúan generando nuevas formas de comunicación, trabajo y entretenimiento.",
+        "contenido": "El desarrollo de nuevas tecnologías permite que las personas puedan acceder a herramientas digitales cada vez más avanzadas. La inteligencia artificial, la computación en la nube y los dispositivos inteligentes son algunos ejemplos.",
+        "imagen": "img/tecnologia.jpg",
+        "fecha": "2026-09-14",
+        "autor": "NewsWorld"
+    },
+    {
+        "id": 3,
+        "titulo": "Destinos turísticos que debes conocer",
+        "categoria": "Turismo",
+        "descripcion": "Conoce algunos destinos que pueden convertirse en una excelente opción para tus próximas vacaciones.",
+        "contenido": "Colombia cuenta con numerosos destinos turísticos que combinan naturaleza, cultura, gastronomía e historia. Cada región ofrece experiencias diferentes para los viajeros.",
+        "imagen": "img/turismo.jpg",
+        "fecha": "2026-09-13",
+        "autor": "NewsWorld"
+    },
+    {
+        "id": 4,
+        "titulo": "El comercio electrónico continúa creciendo",
+        "categoria": "Comercio",
+        "descripcion": "Las compras digitales se han convertido en una alternativa cada vez más utilizada por los consumidores.",
+        "contenido": "El comercio electrónico permite a empresas y consumidores realizar transacciones mediante plataformas digitales. Esta transformación ha generado nuevas oportunidades para pequeños y grandes negocios.",
+        "imagen": "img/comercio.jpg",
+        "fecha": "2026-09-12",
+        "autor": "NewsWorld"
+    },
+    {
+        "id": 5,
+        "titulo": "La innovación tecnológica impulsa nuevos proyectos",
+        "categoria": "Tecnología",
+        "descripcion": "La innovación está permitiendo crear soluciones para diferentes sectores de la sociedad.",
+        "contenido": "Empresas y desarrolladores trabajan constantemente en nuevas soluciones digitales para resolver problemas y mejorar diferentes procesos.",
+        "imagen": "img/tecnologia.jpg",
+        "fecha": "2026-09-11",
+        "autor": "NewsWorld"
+    },
+    {
+        "id": 6,
+        "titulo": "Educación digital abre nuevas oportunidades",
+        "categoria": "Educación",
+        "descripcion": "Las plataformas digitales permiten acceder a nuevos métodos de aprendizaje.",
+        "contenido": "Los estudiantes pueden utilizar diferentes plataformas y herramientas digitales para complementar su formación y adquirir nuevas competencias.",
+        "imagen": "img/educacion.jpg",
+        "fecha": "2026-09-10",
+        "autor": "NewsWorld"
+    }
+]
