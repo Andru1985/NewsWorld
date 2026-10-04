@@ -1,0 +1,29 @@
+<div class="news-card">
+
+  <img
+    [src]="noticia.urlImagen"
+    [alt]="noticia.titulo"
+    class="news-image">
+
+  <div class="news-content">
+
+    <h3>{{ noticia.titulo }}</h3>
+
+    <p>{{ noticia.resumen }}</p>
+    <a [routerLink]="['/noticia', noticia.id]" class="leer-mas">
+  Leer noticia →
+    </a>
+
+    <button
+      (click)="toggleFav()"
+      [class.favorited]="noticia.esFavorito">
+
+      {{ noticia.esFavorito
+        ? '❤️ En Favoritos'
+        : '🤍 Agregar a Favoritos' }}
+
+    </button>
+
+  </div>
+
+</div>

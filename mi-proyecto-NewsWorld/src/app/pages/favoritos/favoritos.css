@@ -1,0 +1,24 @@
+.pagina {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.pagina h2 {
+  color: #0d1b2a;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.pagina > p {
+  text-align: center;
+  color: #555;
+}
+
+.lista-favoritos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

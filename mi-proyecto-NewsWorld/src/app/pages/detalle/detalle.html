@@ -1,0 +1,43 @@
+<section class="detalle" *ngIf="noticia; else noEncontrada">
+
+  <a routerLink="/" class="volver">← Volver a noticias</a>
+
+  <article class="articulo">
+
+    <img
+      [src]="noticia.urlImagen"
+      [alt]="noticia.titulo">
+
+    <div class="contenido-articulo">
+
+      <span class="categoria">NEWSWORLD | ACTUALIDAD</span>
+
+      <h2>{{ noticia.titulo }}</h2>
+
+      <p class="resumen">{{ noticia.resumen }}</p>
+
+      <p>
+        En NewsWorld seguimos los avances y novedades que ayudan
+        a comprender cómo evoluciona el mundo de la tecnología,
+        la innovación y los servicios digitales.
+      </p>
+
+      <button
+        (click)="noticia.esFavorito
+          ? null
+          : null">
+        <app-news-card [noticia]="noticia"></app-news-card>
+      </button>
+
+    </div>
+
+  </article>
+
+</section>
+
+<ng-template #noEncontrada>
+  <section class="detalle">
+    <h2>Noticia no encontrada</h2>
+    <a routerLink="/">Volver al inicio</a>
+  </section>
+</ng-template>

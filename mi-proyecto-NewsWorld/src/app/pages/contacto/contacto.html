@@ -1,0 +1,44 @@
+<section class="contacto">
+
+  <h2>📩 Contáctanos</h2>
+
+  <p>
+    ¿Tienes alguna pregunta? Escríbenos.
+  </p>
+
+  <form (ngSubmit)="enviarFormulario()">
+
+    <label>Nombre</label>
+
+    <input
+      type="text"
+      name="nombre"
+      [(ngModel)]="nombre"
+      required
+      placeholder="Escribe tu nombre">
+
+    <label>Correo electrónico</label>
+
+    <input
+      type="email"
+      name="correo"
+      [(ngModel)]="correo"
+      required
+      placeholder="correo@ejemplo.com">
+
+    <label>Mensaje</label>
+
+    <textarea
+      name="mensaje"
+      [(ngModel)]="mensaje"
+      required
+      placeholder="Escribe tu mensaje">
+    </textarea>
+
+    <button type="submit">
+      Enviar mensaje
+    </button>
+
+  </form>
+
+</section>

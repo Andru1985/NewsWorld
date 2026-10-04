@@ -1,0 +1,19 @@
+<section class="pagina">
+
+  <h2>❤️ Mis noticias favoritas</h2>
+
+  <p *ngIf="listaFavoritos.length === 0">
+    Todavía no tienes noticias favoritas.
+    Ve a Inicio y pulsa el botón de favoritos de una noticia.
+  </p>
+
+  <div class="lista-favoritos" *ngIf="listaFavoritos.length > 0">
+
+    <app-news-card
+  *ngFor="let noticia of listaFavoritos"
+  [noticia]="noticia"
+  (favoritoCambiado)="actualizarFavoritos()">
+</app-news-card>
+  </div>
+
+</section>
